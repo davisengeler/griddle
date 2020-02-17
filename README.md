@@ -57,6 +57,12 @@ Find and copy your key from IFTTT by clicking the **Documentation** on [this pag
         griddle
     ```
 
+Assuming all was set up correctly and you have IFTTT notifications enabled on your phone,
+you should receive a greeting from Griddle. In the next section, we set up a cron job to
+instruct Docker to start a Griddle check every minute so you never get caught up in a random price spike.
+
+### Automating Griddle
+
 1. Run `crontab -e`, press `i` to insert, then add the following (replace all-caps with the full path to your docker
 executable; run `which docker` to find out):
 

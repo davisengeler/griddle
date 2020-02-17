@@ -63,3 +63,8 @@ executable; run `which docker` to find out):
     ```
     */1 * * * * PATH/TO/DOCKER start griddle
     ```
+
+1. Press the escape key several times, then type `:wq` and press return.
+
+You're ready to go! Assuming all was set up correctly and you have IFTTT notifications enabled on your phone,
+you should receive a greeting from Griddle.

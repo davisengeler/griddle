@@ -1,0 +1,7 @@
+gridsheriff_legacy.py
+.idea/
+__pycache__/
+venv/
+settings/
+config.env
+.DS_Store

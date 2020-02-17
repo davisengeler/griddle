@@ -31,7 +31,7 @@ If you don't already have an account, sign up for IFTTT and connect your thermos
 
     **Then** `Notification`
 
-    **Temp** = `{{Value1}}`
+    **Message** = `{{Value1}}`
 
 
 Find and copy your key from IFTTT by clicking the **Documentation** on [this page](https://ifttt.com/maker_webhooks/).
@@ -51,8 +51,15 @@ Find and copy your key from IFTTT by clicking the **Documentation** on [this pag
 
     ```
     docker run \
-        --name gridsheriff \
+        --name griddle \
         --env-file config.env \
         -v PATH/TO/SETTINGS:/griddle/settings \
         griddle
+    ```
+
+1. Run `crontab -e`, press `i` to insert, then add the following (replace all-caps with the full path to your docker
+executable; run `which docker` to find out):
+
+    ```
+    */1 * * * * PATH/TO/DOCKER start griddle
     ```

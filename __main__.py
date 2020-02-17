@@ -28,7 +28,7 @@ try:
 except Exception as e:
     last_heat = -1
     last_cool = -1
-    gs_coms.send_data(notification_url, ["Welcome to Grid Sheriff! If everything is set up right, I'll start saving "
+    gs_coms.send_data(notification_url, ["Welcome to Griddle! If everything is set up right, I'll start saving "
                                          "you money by shifting your AC and Heat usage away from random spikes! "
                                          "Make sure that you're starting the container every minute for best results."])
 
@@ -67,7 +67,7 @@ if last_cool != new_cool or last_heat != new_heat:
     time.sleep(2)
     gs_coms.send_data(
         notification_url,
-        [f"Grid Sheriff – The price of energy is at {current_price}¢ so I'm setting your temp to {new_heat}º – {new_cool}º."]
+        [f"Griddle – The price of energy is at {current_price}¢ so I'm setting your temp to {new_heat}º – {new_cool}º."]
     )
     # Update 'last' values
     with open("settings/.last_heat.txt", "w") as file:

@@ -10,9 +10,9 @@ import g_temp
 
 load_zone = os.environ["LOAD_ZONE"]
 ifttt_key = os.environ["IFTTT_KEY"]
-notification_url = f"https://maker.ifttt.com/trigger/gs_notification/with/key/{ifttt_key}"
-heat_url = f"https://maker.ifttt.com/trigger/gs_heat/with/key/{ifttt_key}"
-cool_url = f"https://maker.ifttt.com/trigger/gs_cool/with/key/{ifttt_key}"
+notification_url = f"https://maker.ifttt.com/trigger/g_notification/with/key/{ifttt_key}"
+heat_url = f"https://maker.ifttt.com/trigger/g_heat/with/key/{ifttt_key}"
+cool_url = f"https://maker.ifttt.com/trigger/g_cool/with/key/{ifttt_key}"
 
 # Read the favorite temperature settings
 with open("settings/fav_heat.txt") as file:

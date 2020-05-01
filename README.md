@@ -6,6 +6,8 @@ wholesale rate energy provider like [Griddy](http://ssqt.co/mefxez0). These prov
 of typical plans as long as you can shape your consumption against the volatile live market price. Griddle takes the
 hassle away!
 
+It's a little bit wonky in its approach right now, but during certain peaks it's saved me several dollars per minute on my energy bill. I have plans to improve it sooner rather than later, but feel free to set it up now if you don't mind the dependencies. 
+
 ## Get Started
 
 Griddle uses Docker and IFTTT. To get started, let's set up IFTTT.

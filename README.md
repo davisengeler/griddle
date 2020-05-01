@@ -1,7 +1,7 @@
 # Griddle
 
 [Griddle](https://griddle.app) is a simple python app made for Docker that helps you save money on your energy bill. It
-watches the live price of electricity in your billing zone and makes clever adjustments to your thermostat. In this version, Griddle uses IFTTT to adjust your home's comfort range *just enough* to shift your power consumption closer to the low 'average price' of wholesale providers. 
+watches the live price of electricity in your billing zone and makes clever adjustments to your thermostat. In this version, Griddle uses IFTTT to talk to your thermostat and adjust your home's comfort range *just enough* to shift your power consumption closer to the low 'average price' of wholesale providers. 
 
 Griddle is only beneficial if you use a variable rate wholesale rate energy provider like [Griddy](http://ssqt.co/mefxez0). These providers can average well below the rates of typical plans as long as you can shape your consumption against the volatile live market price. Griddle takes a lot of the hassle away from avoiding the spikes. 
 

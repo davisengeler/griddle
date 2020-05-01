@@ -4,7 +4,7 @@
 watching the live price of electricity in your billing zone and making clever adjustments to your home's temperature range. Griddle is only beneficial if you use a variable rate wholesale rate energy provider like [Griddy](http://ssqt.co/mefxez0). These providers can average well below the rates of typical plans as long as you can shape your consumption against the volatile live market price. Griddle takes the
 hassle away!
 
-It's a little bit wonky in its approach right now, but during certain peaks it's saved me several dollars per minute on my energy bill. I have plans to improve it sooner rather than later, but feel free to set it up now if you don't mind the dependencies. 
+It's a little bit wonky to set up in this version. That said, during certain peaks it's saved me several dollars per minute on my energy bill. I have plans to improve it sooner rather than later, but feel free to set it up now if you don't mind the dependencies. 
 
 ## Get Started
 
